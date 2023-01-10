@@ -1,0 +1,60 @@
+<html>
+    <head><h1><b>Tour Reserving Form</b></h1></head>
+    <body>
+        <fieldset>
+            <legend>Tourism Information</legend>
+            <p>
+                <b>Tour Destination</b>
+               <br/>
+                <select name="Destinition" id="select" size="3" type="Multiple" >
+                    <option value="">Select Destination</option>
+                    <option value="Gilgit-Baltistan">Gilgit-Baltistan</option>
+                    <option value="Swat">Swat</option>
+                    <option value="Muree">Muree</option>
+                    <option value="Naran Khagan">NaranKhagan</option>
+                    <option value="Hunza">Hunza</option>
+                </select>
+            </p>
+            <p><b>Departure Number</b></p>
+            <input type="date" name="date" placeholder="date of tourism" value="Number"/>
+            <p><b>Return date</b></p>
+            <input type="Date" name="date" placeholder="Date of return" value="Number">
+            <p><b>TOURISTS FACILITIES</b></p>
+            <input type="checkbox"name="Facility" value="car" />car
+            <input type="checkbox"name="Facility" value="hotel" />hotel
+            <input type="checkbox"name="Facility" value="Mountaining" />Mountaining
+            <input type="checkbox"name="Facility" value="desert safari" />desert safari
+            <input type="checkbox"name="Facility" value="Seperate room" />Seperate room
+            <p>
+                <b>ADDITIONAL MESSAGE</b>
+            </p>
+            <textarea name="anything" id="Suggestion" cols="50%" rows="10%" placeholder="Any thing that you want in tour"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <p><b>User Name</b></p>
+            <input type="text" value="name" placeholder="Name"/>
+            <p>
+                <b>Contact Number</b>
+                <input type="text" value="number" placeholder="Number"/>
+                <b>CNIC</b>
+                <input type="text" value="Number" placeholder="42220148631254" maxlength="14"/>
+            </p>
+            <p>
+                <b>E-mail</b>
+                <input type="text" value="email" type="email" placeholder="abc@gmail.com"/>
+            </p>
+            <p>
+                <b>Gender</b> <br/>
+                <input type="radio" name="Gender" value="Male">Male
+                <input type="radio" name="Gender" value="FeMale">FeMale
+            </p>
+            <p>
+                <b>Suggestion</b> <br/>
+                <textarea name="anything" id="text" cols="50%" rows="10%" placeholder="Any Suggestion"></textarea>
+            </p>
+        </fieldset>
+        <link rel="stylesheet" href="index.css">
+         <h1><center><a href="tourist.html">Back Home</a></center></h1>
+    </body>
+</html>
