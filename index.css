@@ -1,5 +1,3 @@
-
-
 h1{
     color: rgb(42, 23, 15);
     text-align: center;
@@ -50,7 +48,7 @@ h2{
 }
 .search-bar{
     width: 50%;
-    height: 10%;
+    height: 8%;
     max-width: 500px;
     background: rgba(243, 239, 239, 0.2);
     display: flex;
@@ -102,6 +100,7 @@ h2{
     position: fixed;
     top: 0;
     width: 98%;
+    z-index:1;
 }
 .logo_img{
    height: 60px;
@@ -150,14 +149,15 @@ i{
     border:solid;
 }
 .bok:hover{
-    background-color: black;
+    background-color:black;
     border-width: 3px;
     border-bottom-color: black;
     border-bottom-style: solid;
 }
 .bok>a{
     text-decoration: none;
-    color:gray;
+    color: darkgray;
+    font-size: 20px;
 }
 i{
     margin-left: 5px;
@@ -166,34 +166,175 @@ i{
     min-height: 380px;
     width: 100%;
     /* background-color: aqua; */
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.Where>p{
-    font-size: 12px
+    display: flex;
+    margin-left: 0;
+    justify-content:space-around;
+    justify-content: center;
+    margin-top: 20px;
 }
 .waying{
     margin-top: 50px;
     width: 200px;
     height: 300px;
     /* background-color: blue; */
-    position: absolute;
+    margin: 80px;
     border-radius: 10px;
-    cursor: pointer;
     margin-top: 30px;
+    align-items: center;
+    cursor: pointer;
+    position:relative;
+}
+.waying img{
+    border-radius: 10px;
 }
 .waying:hover{
-    opacity: 0.5;
-    background-color: gray;
+    opacity: 0.9;
 }
-.inner{
-    height: -300px;
-    width: 300px;
+.waying p{
+    align-items: center;
+}
+.wave{
+     align-items: center;
+     color: white;
+     font-size: 30px;
+     bottom: 0;
+     justify-content: center;
+     align-items: center;
+     padding-left: 15px;
+     text-shadow: 1px 1px 1px #ccc;
+     text-align: center;
+     position: absolute;
+     display: flex;
+}
+.mat{
+    
+    text-align: start;
+}
+.Explore{
+    margin-top: 30px;
+    height: 80%;
+    width: 95%;
+    /* background-color: aqua; */
+    margin-left: 35px;
+    justify-content: space-around;
+}
+.Explore img{
+    height: 80%;
+    width: 95%;
+    align-items: center;
+    border: white solid;
+    justify-content: space-around;
+    position:absolute;
+}
+.text{
+    color: black; 
     position: relative;
-    padding-top: 235px;
-    color: white;
-    text-shadow: black;
-    font-size: 23px;
-    bottom:0;
+    padding-top: 27%;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px rgb(7, 6, 6);
+    padding-left: 10px;
+}
+.exp{
+    height: 38px;
+    width: 9%;
+    background-color: black;
+    position: relative;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+.exp p{
     text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    color: white;
+}
+.exp:hover{
+    opacity: 0.9;
+}
+.tour{
+    min-height: 300px;
+    min-width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.karakoram{
+    height: 350px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid;
+    shape-outside: margin-box;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 20px;
+    box-shadow: 0px 4px 2px #ccc 
+}
+.karakoram:hover{
+    opacity: 0.8;
+}
+.karakoram img{
+    height: 240px;
+    width: 300px;
+}
+.karakoram_t ,.karakoram_p{
+    margin: 0px;
+    padding: 0px;
+}
+.karakoram_t{
+    padding-top: 5px;
+    font-size: 18px;
+}
+.karakoram_p{
+    padding-top: 10px;
+}
+.heart{
+    background-color: azure;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+}
+.heart i{
+    color: efff;
+    margin-right: 0px;
+    font-size: 24px;
+}
+.circle>i{
+    padding-top:5px;
+    padding-right:-7px;
+    color: green;
+}
+.last{
+    margin-top: 20px;
+    height: 400px;
+    width: 90%;
+    background-color:lightgrey;
+    margin-left: 70px;
+    justify-content: space-between;
+}
+.last_text{
+    height:100px;
+    width: 30%;
+    color: black;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+.pic{
+    height: 400px;
+    width: 50%;
+    background-color:lightgrey;
+    right: 0px;
+    border-radius: 20px;
+    margin-left: 48%;
+}
+.pic img{
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
 }
